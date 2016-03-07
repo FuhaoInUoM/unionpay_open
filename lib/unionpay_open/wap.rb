@@ -6,7 +6,7 @@ module UnionpayOpen
       def method_missing(method, **params)
         wap_fixed_params = { signMethod: '01',
                              txnSubType: '00',
-                             bizType: '000201',
+                             bizType: '000202',
                              channelType: '08',
                              accessType: "0",
                              currencyCode: "156" }
