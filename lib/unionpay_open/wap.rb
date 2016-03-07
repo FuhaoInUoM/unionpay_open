@@ -7,7 +7,7 @@ module UnionpayOpen
         wap_fixed_params = { signMethod: '01',
                              txnSubType: '00',
                              bizType: '000202',
-                             channelType: '08',
+                             channelType: '07',
                              accessType: "0",
                              currencyCode: "156" }
 
